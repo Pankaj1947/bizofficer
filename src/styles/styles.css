@@ -1,0 +1,73 @@
+.loginContainer {
+  border: 1px solid black;
+  height: 100vh;
+  background-color: #2a2a2a;
+  display: flex;
+  justify-content: center;
+}
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+  width: 50%;
+  background-color: white;
+  height: 300px;
+  border-radius: 20px;
+  padding: 30px;
+}
+.formContainer > img {
+  width: auto;
+  height: 40px;
+}
+.inputField {
+  width: 80%;
+}
+
+.caseBoxContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 10px;
+  gap: 20px;
+}
+.caseBoxInner {
+  width: 150px;
+  height: 70px;
+  padding: 10px;
+  border-top: 1px solid orange;
+  border-bottom: 1px solid grey;
+  border-radius: 5px;
+  color: rgb(100, 99, 99);
+}
+.caseBoxInner:hover {
+  background-color: #8ef880;
+}
+.nameBox {
+  display: flex;
+  justify-content: left;
+  width: 80%;
+  font-size: 12px;
+  margin-top: 5px;
+}
+.valueBox {
+  display: flex;
+  justify-content: left;
+  font-size: 29px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.navContainer{
+  display: flex;
+  justify-content: space-between;
+  /* width: 98%; */
+  padding:7px 3%;
+  background-color: #0B60CC;
+  color: white;
+}
+.innerNavContainer{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  /* cursor: pointer; */
+}
